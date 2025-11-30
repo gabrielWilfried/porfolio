@@ -1,0 +1,67 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À Propos",
+    "skills": "Compétences",
+    "portfolio": "Portfolio",
+    "experience": "Expérience",
+    "education": "Formation",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Bonjour, je suis",
+    "name": "Gabriel Wilfried Yagaka Tagne",
+    "title": "Développeur Full-Stack",
+    "subtitle": "2 Ans d'Expérience Professionnelle",
+    "description": "Développeur Full-Stack passionné avec une expertise en React, Laravel, Django et technologies web modernes. Spécialisé dans la création d'applications sécurisées et évolutives avec un fort accent sur l'UI/UX et les principes de sécurité OWASP.",
+    "hireCta": "Engagez-Moi",
+    "downloadCv": "Télécharger CV"
+  },
+  "about": {
+    "title": "À Propos de Moi",
+    "subtitle": "Apprenez à me connaître",
+    "bio1": "Je suis un Développeur Full-Stack dévoué avec 2 ans d'expérience professionnelle, spécialisé dans la création d'applications web et mobiles robustes. Je détiens un Master en Sécurité Informatique de l'Université de Yaoundé 1 et une Licence en Informatique de l'Université de Dschang.",
+    "bio2": "Mon expertise couvre les technologies frontend comme React.js, React Native, Vue.js, et les frameworks backend incluant Laravel, Django, FastAPI et Node.js. Je suis passionné par la création d'applications sécurisées et centrées sur l'utilisateur tout en respectant les principes de sécurité OWASP Top 10.",
+    "bio3": "Actuellement, je travaille chez Alshadows Technology en tant que Développeur Full-Stack Mobile et Web, où j'ai contribué à plusieurs applications en production incluant des plateformes e-médicales, des sites web d'entreprise et des applications mobiles. Je collabore également sur des recherches de pointe en cyber-déception et apprentissage par renforcement avec Dr. Charles Kamhoua du Laboratoire de Recherche de l'Armée Américaine.",
+    "bio4": "Au-delà du développement, je suis engagé dans le mentorat, donnant régulièrement des cours aux étudiants en Informatique, Développement Web et Cybersécurité. Je crois en l'apprentissage continu et me tiens à jour avec les dernières technologies et meilleures pratiques de sécurité."
+  },
+  "skills": {
+    "title": "Compétences & Technologies",
+    "subtitle": "Mon expertise technique",
+    "frontend": "Développement Frontend",
+    "backend": "Développement Backend",
+    "tools": "Outils & Plateformes",
+    "security": "Sécurité & Meilleures Pratiques"
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "subtitle": "Projets Présentés",
+    "viewDetails": "Voir Détails",
+    "liveDemo": "Démo Live",
+    "sourceCode": "Code Source",
+    "techStack": "Stack Technique",
+    "features": "Fonctionnalités Clés",
+    "close": "Fermer"
+  },
+  "experience": {
+    "title": "Expérience Professionnelle",
+    "subtitle": "Mon parcours professionnel",
+    "present": "Présent"
+  },
+  "education": {
+    "title": "Formation",
+    "subtitle": "Parcours académique"
+  },
+  "contact": {
+    "title": "Contactez-Moi",
+    "subtitle": "Travaillons ensemble",
+    "name": "Votre Nom",
+    "email": "Votre Email",
+    "message": "Votre Message",
+    "send": "Envoyer Message",
+    "sending": "Envoi en cours...",
+    "success": "Message envoyé avec succès!",
+    "error": "Échec de l'envoi. Veuillez réessayer.",
+    "info": "N'hésitez pas à me contacter pour des collaborations, opportunités, ou simplement pour échanger!"
+  }
+}
