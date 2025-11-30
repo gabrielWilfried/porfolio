@@ -11,4 +11,5 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
+  base: process.env.VITE_BASE_PATH || "/porfolio",
 })
