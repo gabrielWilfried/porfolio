@@ -207,7 +207,7 @@ export default function Contact() {
                 </span>
               </button>
 
-              {status === 'success' && (
+              {resultMessage && status === 'success' && (
                 <motion.p
                   initial={{ opacity: 0, y: -10 }}
                   animate={{ opacity: 1, y: 0 }}
@@ -217,7 +217,7 @@ export default function Contact() {
                 </motion.p>
               )}
 
-              {status === 'error' && (
+              {resultMessage && status === 'error' && (
                 <motion.p
                   initial={{ opacity: 0, y: -10 }}
                   animate={{ opacity: 1, y: 0 }}
