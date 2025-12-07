@@ -11,18 +11,37 @@ export default function Contact() {
     message: ''
   });
   const [status, setStatus] = useState<'idle' | 'sending' | 'success' | 'error'>('idle');
+  const[resultMessage, setResultMessage] = useState<string | null>(null);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setStatus('sending');
+    setResultMessage(null);
 
-    await new Promise(resolve => setTimeout(resolve, 1000));
+    const payload = new FormData();
+    payload.append("access_key", "87e5d77a-c2b7-4b81-a070-1411317f640e");
+    payload.append("name", formData.name);
+    payload.append("email", formData.email);
+    payload.append("message", formData.message);
 
-    const emailBody = `Name: ${formData.name}%0D%0AEmail: ${formData.email}%0D%0A%0D%0AMessage:%0D%0A${formData.message}`;
-    window.location.href = `mailto:gabrielwilfried0808@gmail.com?subject=Portfolio Contact from ${formData.name}&body=${emailBody}`;
-
-    setStatus('success');
-    setFormData({ name: '', email: '', message: '' });
+    try{
+      const response = await fetch("https://api.web3forms.com/submit",{
+        method: "POST",
+        body: payload
+      });
+      const data = await response.json();
+      if (data.success){
+        setStatus('success');
+        setResultMessage('Message sent successfully!');
+        setFormData({name: '', email:'', message: ''});
+      }else{
+        throw new Error("Submission failed");
+      }
+    }catch(error){
+      console.error("web3Form error:", error);
+      setStatus('error');
+      setResultMessage("Something went wrong. Please try again later.")
+    }
 
     setTimeout(() => setStatus('idle'), 3000);
   };
