@@ -86,7 +86,7 @@ export const skillCategories: SkillCategory[] = [
       { name: 'Security Testing', level: 85 },
       { name: 'Data Protection', level: 90 },
       { name: 'Cyber Security', level: 85 },
-      { name: 'Penetration Testing', level: 80 }
+      { name: 'Penetration Testing', level: 40 }
     ]
   }
 ];
