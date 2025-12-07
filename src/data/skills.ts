@@ -29,7 +29,8 @@ export const skillCategories: SkillCategory[] = [
       { name: 'Bootstrap', level: 90 },
       { name: 'Material UI', level: 85 },
       { name: 'Alpine.js', level: 80 },
-      { name: 'Framer Motion', level: 85 }
+      { name: 'Framer Motion', level: 85 },
+      { name: 'Figma', level: 50 }
     ]
   },
   {
