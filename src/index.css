@@ -1,5 +1,5 @@
 @import "tailwindcss";
-
+@config "../tailwind.config.js";
 
 .element-class {
   background-color: #fff;
